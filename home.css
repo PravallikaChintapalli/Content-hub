@@ -1,0 +1,99 @@
+/* General */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfde7; /* light beige */
+    color: #222;
+}
+
+/* Reset links */
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+/* Navbar */
+.navbar {
+    background: #fff3e0;
+    padding: 15px 30px;
+    border-bottom: 2px solid #ccc;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+/* Hero Section (Logo area) */
+.hero {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Section Title */
+.content h2 {
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0;
+    font-family: Georgia, serif;
+}
+
+/* Blog Grid */
+.blogs-section {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-gap: 40px;
+    padding-bottom: 50px;
+}
+
+/* Blog Card */
+.blog-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card h3 {
+    font-size: 22px;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.blog-card p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.blog-card a {
+    font-size: 14px;
+    color: #0066cc;
+    font-weight: bold;
+}
